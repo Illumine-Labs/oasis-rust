@@ -1,9 +1,9 @@
 # Basics
-
+---
 
 ## Date and Time
 
-### `Chrono`` vs `Time`` vs `std::time`
+### `Chrono` vs `Time` vs `std::time`
 
 推荐的优先选择顺序，从高到低排列：
 
