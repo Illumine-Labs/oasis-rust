@@ -46,3 +46,18 @@ time 0.3 had all the functionality of chrono, but incompatible with chrono.
 
 - [time-rs](https://github.com/time-rs/time)
 - [book](https://time-rs.github.io/book/)
+
+
+## Security
+
+### veil: Rust derive macro for redacting sensitive data in `std::fmt::Debug`
+
+> 在`std::fmt::Debug`中用于隐藏敏感数据的Rust派生宏
+
+[veil](https://github.com/primait/veil)，A derive macro that implements std::fmt::Debug for a struct or enum variant, with certain fields redacted.
+
+The purpose of this macro is to allow for easy, configurable and efficient redaction of sensitive data in structs and enum variants. This can be used to hide sensitive data in logs or anywhere where personal data should not be exposed or stored.
+
+
+> 一个派生宏，用于为结构体或枚举变体实现 std::fmt::Debug ，并对特定字段进行了删除。
+> 这个宏的目的是为了方便、可配置和高效地对结构体和枚举变体中的敏感数据进行删除。这可以用于隐藏日志中的敏感数据，或者任何个人数据不应该被公开或存储的地方。
